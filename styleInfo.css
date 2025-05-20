@@ -1,0 +1,30 @@
+/*jumbotron stuff*/
+.jumbotron {
+    background-image:url(imgs/monroePortrait2.png);
+    background-size:cover;
+    background-position-x:center;
+    background-position-y:center;
+    color:white;
+    height:800px;
+    filter: brightness(0.8);
+    /* box-shadow:inset 0px -130px 150px 0px black; */
+    position:relative;
+    z-index:0;
+    padding-top:400px;
+    margin-top:50px;
+    border:2px solid black;
+}
+
+.jumbotronheader1 {
+    font-size:110px;
+    font-family: "ivyora-display", sans-serif;
+font-weight: 700;
+font-style: italic;
+/* text-shadow:4px 4px 5px black; */
+
+margin-top:300px;
+}
+
+html {
+    overflow-x:hidden;
+}
