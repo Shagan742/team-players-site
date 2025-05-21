@@ -17,18 +17,18 @@ document.addEventListener('DOMContentLoaded', ()=> {
                         <p class="small text-muted mb-0">Age: ${player.age}</p>
                         <btn class="btn bg-secondary" onclick="document.getElementById('modal${i}').style.display='block'">More Info</btn>
 
-<div class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<div id="modal${i}" class="modal${i}" tabindex="-1">
+  <div class="modal${i}-dialog">
+    <div class="modal${i}-content">
+      <div class="modal${i}-header">
+        <h5 class="modal${i}-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal${i}" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
+      <div class="modal${i}-body">
+        <p>hgjgjgh</p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <div class="modal${i}-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal${i}">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
