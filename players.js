@@ -5,7 +5,7 @@ const players= [
         position:'SS',
         age:52,
         photo:'https://picsum.photos/200/300',
-        hiddenFact:'balablabal'
+        hiddenFact:'1'
     },
 
     {
@@ -13,7 +13,8 @@ const players= [
         lastName:'Paul',
         position:'SS',
         age:52,
-        photo:'https://picsum.photos/200/300'
+        photo:'https://picsum.photos/200/300',
+        hiddenFact:'2'
     },
 
     {
@@ -21,7 +22,8 @@ const players= [
         lastName:'Paul',
         position:'SS',
         age:52,
-        photo:'https://picsum.photos/200/300'
+        photo:'https://picsum.photos/200/300',
+        hiddenFact:'3'
     },
 
     {
@@ -29,7 +31,8 @@ const players= [
         lastName:'Paul',
         position:'SS',
         age:52,
-        photo:'https://picsum.photos/200/300'
+        photo:'https://picsum.photos/200/300',
+        hiddenFact:'4'
     },
 
     {
@@ -37,6 +40,7 @@ const players= [
         lastName:'Paul',
         position:'SS',
         age:52,
-        photo:'https://picsum.photos/200/300'
+        photo:'https://picsum.photos/200/300',
+        hiddenFact:'5'
     }
 ]
