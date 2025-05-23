@@ -1,11 +1,33 @@
 html {
     overflow-x:hidden;
+    /* overflow-y:hidden; */
 }
 
 body {
-    background-color: black;
+    background-image:url(imgs/bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position-y:center;
 }
 
-.heading, h3 {
+.heading, h2 {
     color:white;
+}
+
+.heading {
+    font-size:60px;
+}
+h2 {
+    font-size:40px;
+}
+
+.btn {
+    font-size:18px;
+    font-weight:bold;
+}
+
+.btn:hover {
+    background-color:red;
+    border:2px solid white;
 }

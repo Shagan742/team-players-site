@@ -43,14 +43,14 @@ html {
 
 .navbar {
     background-color:rgba(0,0,0,0.8);
-    box-shadow: 2px 2px 7px rgb(91,19,19);
+    box-shadow: 2px 2px 7px red;
     
 }
 
 .nav-link {
     color:white;
     font-size:18px;
-    background-color:rgba(96, 19, 19,0.9);
+    background-color:rgba(208, 0, 0, 0.9);
     border-radius:6px;
     border:1px solid white;
     margin:5px;
@@ -87,4 +87,9 @@ max-width:300px;
 
 .card-img-top {
     height:300px;
+}
+
+.btn:hover {
+    border:2px solid white;
+    background-color:red;
 }
