@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
                     <div class="card-body text-center">
                         <h5 class="card-title mb-1">${player.firstName} ${player.lastName}</h5>
                         <div class="badge badge-position badge-pos-${player.position}">${player.position}</div>
-                        <p class="small text-muted mb-0">Age: ${player.age}</p>
+                        <p class="small mb-3">Age: ${player.age}</p>
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
   More Info
 </button>
 
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         ${player.hiddenFact}
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
