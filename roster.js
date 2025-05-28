@@ -2,11 +2,9 @@ document.addEventListener('DOMContentLoaded', ()=> {
     const grid=document.getElementById('rosterGrid')
     const render= list => {
         grid.innerHTML=''
-        list.forEach(player => {
+        list.forEach((player, i) => {
             const col = document.createElement('div')
             col.className='col-6 col-lg-2'
-            let i=0;
-            i++;
             col.innerHTML=`
             
             <div class="card h-100 shadow-sm">
@@ -25,14 +23,9 @@ document.addEventListener('DOMContentLoaded', ()=> {
 <div class="modal fade" id="exampleModal${i}" tabindex="-1" aria-labelledby="exampleModalLabel${i}" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel${i}">Fun Fact ${i}:</h1>
-      </div>
       <div class="modal-body">
-        ${player.hiddenFact}
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <p class="hiddenFact">${player.hiddenFact}</p>   
+       <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
