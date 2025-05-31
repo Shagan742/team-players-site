@@ -1,6 +1,6 @@
 html {
     overflow-x:hidden;
-    /* overflow-y:hidden; */
+    overflow-y:hidden;
 }
 
 body {
@@ -17,14 +17,22 @@ body {
 
 .heading {
     font-size:60px;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 800;
+  font-style: italic;
 }
 h2 {
     font-size:40px;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .btn {
     font-size:18px;
     font-weight:bold;
+    font-family: "Permanent Marker", cursive;
+  font-style: italic;
 }
 
 .btn:hover {

@@ -11,17 +11,15 @@ html {
     overflow-x:hidden;
 }
 
-.paragraph {
-    font-size:24px;
-    color:white;
-    margin-top:60px;
-    margin-bottom:90px;
-}
+
 
 .heading {
     color:white;
-    font-size:65px;
-    margin-top:90px;
+    font-size:95px;
+    margin-top:60px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .navbar {
@@ -38,6 +36,9 @@ html {
     border:1px solid white;
     margin:5px;
     text-align:center;
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .nav-link:hover {
@@ -65,7 +66,7 @@ body {
 border: 2px solid white; 
 box-shadow: 0px 0px 5px white; 
 border-radius:10px;
-/* max-width:300px; */
+max-width:300px;
 
 }
 
@@ -80,12 +81,34 @@ border-radius:10px;
 
 .small {
     color:white;
+    font-size:18px;
 }
 
 .hiddenFact {
     color:white;
+    font-size:20px;
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .modal-title {
-    color:white;
+    color:rgb(255, 106, 106);
+    font-size:30px;
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.badge {
+    font-size:16px;
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.card-title {
+    font-size:22px;
+    color:rgb(255, 106, 106);
+    font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
 }

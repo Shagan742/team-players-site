@@ -16,12 +16,11 @@
 
 .jumbotronheader1 {
     font-size:110px;
-    font-family: "ivyora-display", sans-serif;
-font-weight: 700;
-font-style: italic;
-/* text-shadow:4px 4px 5px black; */
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: italic;
 
-margin-top:300px;
+margin-top:200px;
 }
 
 html {
@@ -33,12 +32,16 @@ html {
     color:white;
     margin-top:60px;
     margin-bottom:90px;
+    
 }
 
 .heading {
     color:white;
-    font-size:65px;
+    font-size:85px;
     margin-top:90px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .navbar {
@@ -55,6 +58,9 @@ html {
     border:1px solid white;
     margin:5px;
     text-align:center;
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .nav-link:hover {
