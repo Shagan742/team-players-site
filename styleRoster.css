@@ -65,7 +65,7 @@ body {
 border: 2px solid white; 
 box-shadow: 0px 0px 5px white; 
 border-radius:10px;
-max-width:300px;
+/* max-width:300px; */
 
 }
 
@@ -83,9 +83,9 @@ max-width:300px;
 }
 
 .hiddenFact {
-    color:black;
+    color:white;
 }
 
 .modal-title {
-    color:black;
+    color:white;
 }
